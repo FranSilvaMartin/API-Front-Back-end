@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Web - Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-sm mt-5 mb-7 col-5">
+        <div class="card bg-light">
+            <div class="card-body">
+                <h3 class="card-title">Register a user</h3>
+                <p class="card-text">Enter the user data, all fields must be filled in...</p>
+                <div class="form-group mt-4">
+                    <label for="username">Username:</label>
+                    <input type="username" class="form-control" placeholder="fransilva" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="fransilva@gmail.com" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" placeholder="123456" id="pwd" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date of birth:</label>
+                    <input type="date" class="form-control" placeholder="04-02-2003" id="date" required>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn pl-4 pr-4 btn-success btn-primary" id="btn-register">Register</button>
+                    <button type="button" class="btn pl-4 pr-4 btn-danger" id="btn-back">Go back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../assets/js/register.js"></script>
+</body>
+
+</html>
